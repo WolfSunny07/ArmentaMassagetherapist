@@ -2,7 +2,7 @@ body{
 	font-family: verdana, tahoma, sans-serif;
 	font-size: 100%;
 	color: #000;
-	background:#EEEBDD url(Image/waterlily.jpg) no-repeat;
+	background:#EEEBDD;
 }
 header{
 	padding-left: 25px;
