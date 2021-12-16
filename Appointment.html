@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Appointment</title>
+	<link rel="stylesheet" type="text/css" href="looks.css">
+</head>
+<body>
+<div id="wrapper">
+<nav>
+	<ul>
+	<li><a href="ArmentaMassageTherapist.html"><strong>Home</strong></a></li>
+  <li><a href="reviews.html"><strong>Reviews</strong></a></li>
+	<li class="active"><a href="Appointment.html"><strong>Appoitment</strong></a></li>
+	<li><a href="contact.html"><strong>Contact</strong></a></li>
+</ul>
+</nav>
+<header>
+	 <h1>AMT Appointmet</h1>
+   <p> this were ware you set up an appointment with me</p>
+</header>
+<main>
+<form action="SEND ADDRESS" id="ft-form" method="POST" accept-charset="UTF-8">
+  <fieldset>
+    <legend>For person</legend>
+    <label>
+      Name
+      <input type="text" name="name" required>
+    </label>
+    <div class="two-cols">
+      <label>
+        Email address
+        <input type="email" name="email" required="ArmentaMassageTherapist@gmail.com">
+      </label>
+      <label>
+        Phone number
+        <input type="tel" name="phone">
+      </label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Appointment request</legend>
+    <div class="two-cols">
+      <label>
+        Datum
+        <input type="date" name="Appointment request" required>
+      </label>
+      <div class="inline">
+        <label>
+          <input type="hidden" name="Morning desired" value="no">
+          <input type="checkbox" name="Morning desired" value="yes">
+          Morning
+        </label>
+        <label>
+          <input type="hidden" name="Afternoon desired" value="no">
+          <input type="checkbox" name="Afternoon desired" value="yes">
+          Afternoon
+        </label>
+      </div>
+    </div>
+    <p>Confirmation requested by</p>
+    <div class="inline">
+      <label>
+        <input type="radio" name="Confirmation requested by" value="email" checked>
+        Email
+      </label>
+      <label>
+        <input type="radio" name="Confirmation requested by" value="phone">
+        Phone call
+      </label>
+    </div>
+  </fieldset>
+  <div class="btns">
+    <input type="text" name="_gotcha" value="" style="display:none;">
+    <input type="submit" value="Submit request">
+  </div>
+</form>
+</main>
+<footer>
+	<p>copyright &copy; 2021.All rights reserved.</p>
+</footer>
+</div>
+</body>
+</html>

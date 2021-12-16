@@ -1,0 +1,113 @@
+body{
+	font-family: verdana, tahoma, sans-serif;
+	font-size: 100%;
+	color: #000;
+	background:#EEEBDD url(Image/waterlily.jpg) no-repeat;
+}
+header{
+	padding-left: 25px;
+	border-bottom: 2px solid #630000;
+}
+nav{
+ padding-left: 25px;
+ margin-top: 10px;
+ padding-bottom: 10px;
+ border-bottom: 2px solid #630000;
+}
+main{
+ padding: 0 25px;
+}
+main p{
+	font-size: 1.1em;
+	line-height: 1.6em;
+	text-orientation: center
+}
+p{
+	text-shadow: 2px 2px white;
+}
+footer{
+ padding: 10px;
+ background: #D8B6A4
+}
+h1{
+	color: #630000
+}
+div{
+	width: 800px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+span{
+	display: block;
+}
+/*task bar*/
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #D8B6A4;
+}
+li{
+	display: inline;
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+/*class selectors*/
+.active{
+	background-color: #630000;
+}
+.fltleft{
+float: left;
+margin-right: 20px;
+}
+.fltright{
+	float: right;
+	margin-left: 20px;
+}
+.amt{
+	color:#EEEBDD
+}
+.circular{
+	border-radius: 100%
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.checked {
+  color: yellow;
+}
+/*id selectors*/
+#wrapper{
+	background: #EEEBDD;
+	width:900px;
+	margin:0 auto;
+	border: 3px double #EEEBDD
+}
+#special{
+	border-color: #EEEBDD;
+	border-width: 20px;
+	border-style: solid;
+	border-bottom-style: solid;
+	border-bottom-color: #630000;
+	background: #D8B6A4;
+	padding: 5px;
+	padding-left: 0px;
+	margin: 0px;
+	margin-right: 0px;
+}
+/*task bar class tag*/
+#nav {         
+background: #D8B6A4;         
+border-top: solid 1px #EEEBDD;          
+border-bottom: solid 1px #630000;
+} 
